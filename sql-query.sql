@@ -27,3 +27,4 @@ select salesordernumber, orderdate, productkey, orderQuantity, UnitPrice, TotalP
 from factresellersales
 where ProductKey in (597, 598, 477, 214) and OrderDate > "2020-01-01"
 order by OrderDate;
+
